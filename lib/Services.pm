@@ -4,17 +4,6 @@ use Dancer2 appname => 'Web';
 
 use MF::Utils qw( load_yaml defor );
 
-hook before_template_render => {
-    AuthGate => sub {
-        my ($stash) = @_;
-        $stash->{user} = sub {
-            my $username = AuthGate::Service->session->{username}
-              or return redirect '/login';
-            return AuthGate::Service->user( username => $username );
-        };
-    },
-};
-
 sub init {
     {
         user => {

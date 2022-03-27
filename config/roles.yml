@@ -1,0 +1,53 @@
+Admin:
+    can:
+        anything:
+            anything: 1
+Editor:
+    can:
+        comments:
+            add: 1
+            del: 1
+            edit: 1
+        categories:
+            add: 1
+            del: 1
+            edit: 1
+        links:
+            add: 1
+            del: 1
+            edit: 1
+        pages:
+            all: 1
+            add: 1
+            del: 1
+            edit: 1
+            publish: 1
+        upload:
+            enable: 1
+        profile:
+            update: 1
+Author:
+    can:
+        pages:
+            add: 1
+            del: 1
+            edit: 1
+            publish: 1
+        upload:
+            enable: 1
+        profile:
+            update: 1
+Contributor:
+    can:
+        pages:
+            add: 1
+            del: 1
+            edit: 1
+        profile:
+            update: 1
+Subscriber:
+    can:
+        pages:
+            review: 1
+        profile:
+            update: 1

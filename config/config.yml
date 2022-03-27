@@ -1,0 +1,8 @@
+session: Cookie
+engines:
+  session:
+    Cookie:
+      secret_key: 21ol34ujo0quf-0wd7afsad-0f8f
+      default_duration: 99999999
+      with_request_address: 0
+

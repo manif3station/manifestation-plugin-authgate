@@ -1,0 +1,6 @@
+version: '3.7'
+services:
+    web:
+        environment:
+            MF_USERS_RECORD: $MF_BASE_DIR/config/AuthGate/users.yml
+            MF_ROLES_RECORD: $MF_BASE_DIR/config/AuthGate/roles.yml

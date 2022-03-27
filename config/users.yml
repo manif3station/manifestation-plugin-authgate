@@ -1,0 +1,12 @@
+admin:
+    password: testing123
+    roles:
+        Admin: 1
+editor1:
+    password: testing456
+    roles:
+        Editor: 1
+author1:
+    password: testing789
+    roles:
+        Author: 1
